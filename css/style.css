@@ -1,0 +1,83 @@
+/* ----------------------> google fonts CDN <------------------------ */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* ----------------------> Global settings <------------------------ */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* ----------------------> Share style <------------------------ */
+
+/* -----------> Share Variable <-------------------- */
+:root{
+    --noto-serif-font: "Noto Serif", serif;
+    --inter-font: "Inter", sans-serif;
+    --paragraph-text-color: #0000007d;
+    --primary-text-color: #E95A08;
+    --hading-text-color: #000000;
+    --button-bg-color: #E95A08;
+}
+
+/* ----------------------> body  style <------------------------ */
+body{
+background-color: white;
+}
+/* ----------------------> header Section Style <------------------------ */
+header{
+    max-width: 90rem;
+    height: auto;
+    margin: 0 auto;
+}
+
+/* ----------------------> navBar  Section Style <------------------------ */
+.navBar{
+    max-width: 77.5rem;
+    height: auto;
+    margin: 1.9rem auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navBar a{
+    text-decoration: none;
+}
+.navBar a img{
+    width: 8rem;
+    height: auto;
+    object-fit: cover;
+}
+
+.nav-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+.nav-links{
+ list-style-type: none;
+}
+.nav-Anchor{
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: var(--hading-text-color);
+    font-family: var(--inter-font);
+    
+}
+.nav-Anchor-gray{
+    color: var(--paragraph-text-color);
+}
+.nav-cart{
+    font-weight: 300;
+}
+/* ----------------------> Banner  Section Style <------------------------ */
+/* ----------------------> Section Style <------------------------ */
+/* ----------------------> Section Style <------------------------ */
+/* ----------------------> Section Style <------------------------ */
+/* ----------------------> Section Style <------------------------ */
+/* ----------------------> Section Style <------------------------ */
+/* ----------------------> Section Style <------------------------ */
+/* ----------------------> Section Style <------------------------ */
+/* ----------------------> Section Style <------------------------ */
+/* ----------------------> Section Style <------------------------ */
