@@ -1,0 +1,65 @@
+/* ----------------------> Mobile device responsive <------------------------ */
+@media screen and (max-width:576px) {
+    /* ----------------------> Navbar style <------------------------ */
+    .navBar {
+        max-width: 25rem;
+
+    }
+    .navBar a img{
+        width: 4rem;
+    }
+    .display-none{
+        display: none;
+    }
+    .nav-links a{
+        font-size: 0.9rem;
+    }
+
+    /* ----------------------> Banner Section style <------------------------ */
+
+    .Banner-hero-container{
+        max-width: 25rem;
+        flex-direction: column-reverse;
+        padding-top: 0px;
+    }
+    .banner-image-content img{
+        width: 25rem;
+        height: 15rem;
+    }
+    .banner-text-content h1{
+        font-size: 1.5rem;
+        margin-top: 1.7rem;
+    }
+    .banner-description{
+        font-size: 0.8rem;
+    }
+/* ----------------------> Our Plants Section Style <------------------------ */ 
+    .our-plants-container{
+        max-width: 25rem;
+        padding-top: 3rem;
+    }
+    .our-plants-title{
+         font-size: 1.6rem;
+    }
+    .our-plants-description{
+        max-width: 25rem;
+    }
+    .card-inner-continer{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .card img{
+        width: 10rem;
+        height: 12rem;
+    }
+    .card{
+        max-width: 14rem;
+    }
+    .card h1,
+    .card h2{
+        font-size: 1.1rem;
+    }
+    .card-btn{
+        font-size: 0.8rem;
+    }
+    
+}
