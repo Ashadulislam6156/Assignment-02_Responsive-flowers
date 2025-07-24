@@ -37,6 +37,7 @@
     .our-plants-container{
         max-width: 25rem;
         padding-top: 3rem;
+        padding-bottom: 2rem;
     }
     .our-plants-title{
          font-size: 1.6rem;
@@ -60,6 +61,38 @@
     }
     .card-btn{
         font-size: 0.8rem;
+    }
+
+    /* ----------------------> Plants Lover Section Style <------------------------ */ 
+
+    .Plants-Lover-container{
+        flex-direction: column;
+        max-width: 25rem;
+         gap: 0rem;
+         padding: 0rem;
+    }
+
+    .lover-badge{
+        display: none;
+    }
+    .lover-bg-img{
+        width: 23rem;
+        height: auto;
+        margin-left: 0rem;
+    }
+    .Plants-lover-right{
+        margin-left: 0rem;
+        padding-top: 0rem;
+    }
+    .Plants-lover-right h1{
+        font-size: 1.3rem;
+        padding-top: 0.7rem;
+    }
+    .Plants-lover-right-list li{
+        font-size: 0.7rem;
+        max-width:21rem;
+        margin-left: 1.2rem 
+        ;
     }
     
 }

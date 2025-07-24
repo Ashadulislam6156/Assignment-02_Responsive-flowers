@@ -22,7 +22,7 @@
 
 /* ----------------------> body  style <------------------------ */
 body{
-background-color: white;
+background-color: #f5f8ff;
 }
 /* ----------------------> header Section Style <------------------------ */
 header{
@@ -143,19 +143,21 @@ main{
     padding-top: 1rem;
 }
 .card-inner-continer{
+    max-width: 77.5rem;
+    height: auto;
     display: grid;
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: repeat(4,auto);
     text-align: center;
     gap: 1.2rem;
     padding-top: 2rem;
     place-items: center;
 }
 .card{
-    max-width: 16rem;
+    max-width: 18.5rem;
     height: auto;
 }
 .card img{
-    width: 16rem;
+    width: 18.5rem;
     height: 20rem;
 }
 .card h1{
@@ -190,9 +192,152 @@ main{
 .card-btn:hover{
     background-color: #000000;
 }
-/* ----------------------> Section Style <------------------------ */
-/* ----------------------> Section Style <------------------------ */
-/* ----------------------> Section Style <------------------------ */
+/* ---------------------->Plants Lover Section Style <------------------------ */
+.Plants-Lover-container{
+ max-width: 77.5rem;
+ margin: 0 auto;
+ height: auto;
+ display: flex;
+ justify-content: space-between;
+ align-items: start;
+ gap: 1rem;
+ padding: 3rem 0rem;
+}
+.Plants-lover-left{
+  position: relative;
+  max-width: 34rem;
+  height: auto;
+  margin: 0 auto;
+}
+.lover-bg-img{
+    width: 34rem;
+    height: 35rem;
+    margin-left: -0.9rem;
+}
+
+.lover-badge{
+    width: 15rem;
+    height: 15rem;
+    position: absolute;
+    top: -7rem;
+    right: -6rem;
+    animation: badgeAnimation 9s  infinite linear;
+}
+.lover-badge:hover{
+    cursor: pointer;
+    animation: none;
+}
+/* ---------------> Badge animation <----------- */
+@keyframes badgeAnimation{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+.Plants-lover-right{
+    padding-top: 2.5rem;
+    padding-left: 1rem;
+    max-width: 40rem;
+    height: auto;
+    margin: 0 auto;
+}
+.Plants-lover-right h1{
+    font-size: 3rem;
+    font-weight: bold;
+    font-family: var(--noto-serif-font);
+    color: var(--hading-text-color);
+    max-width: 33rem;
+}
+.Plants-lover-right-list li{
+    font-size: 1.3rem;
+    font-family: var(--inter-font);
+    color: var(--paragraph-text-color);
+    /* max-width: 35rem; */
+    margin-left: 3rem;
+    margin-top: 1.2rem;
+}
+/* ---------------------->Latest Deal Section Style <------------------------ */
+.Latest-Deal-container{
+  max-width: 77.5rem;
+  height: auto;
+  margin: 0 auto;
+}
+.Latest-Deal-container h1{
+    font-size: 3.1rem;
+    font-weight: bold;
+    color: var(--primary-text-color);
+    font-family: var(--noto-serif-font);
+    text-align: center;
+
+}
+.latest-deal-primary{
+    color: var(--hading-text-color);
+}
+.Latest-Deal-container p{
+    font-size: 1.3rem;
+    font-family: var(--inter-font);
+    font-weight: 400;
+    color: var(--paragraph-text-color);
+    max-width: 55rem;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 1rem;
+}
+.latest-deal-images-container{
+    max-width: 77.5rem;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: repeat(2,1fr);
+    /* height: 26rem; */
+    margin: 0 auto;
+    gap: 1.8rem;
+    place-items: center;
+}
+
+
+
+/* ---------------------->Join Section Style <------------------------ */
+.join-container{
+    max-width: 90rem;
+    height: 25rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../assets/news-letter-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    flex-direction: column;
+}
+.join-container h1{
+    font-size: 3rem;
+    font-weight: bold;
+    font-family: var(--noto-serif-font);
+    color: white;
+}
+#join-input{
+    outline: none;
+    border: none;
+    width: 40rem;
+    height: 2.3rem;
+    color: #000000;
+    padding: 1rem;
+    font-family: var(--inter-font);
+    font-size: 0.8rem;
+    margin-top: 1rem;
+}
+.join-btn{
+    padding: 0.7rem 2rem;
+    background-color: #E95A08;
+    color: white;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    margin-left: -0.4rem;
+}
 /* ----------------------> Section Style <------------------------ */
 /* ----------------------> Section Style <------------------------ */
 /* ----------------------> Section Style <------------------------ */
