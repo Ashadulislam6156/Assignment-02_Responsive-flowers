@@ -49,7 +49,7 @@
         grid-template-columns: repeat(2,1fr);
     }
     .card img{
-        width: 10rem;
+        width: 11.5rem;
         height: 12rem;
     }
     .card{
@@ -76,12 +76,12 @@
         display: none;
     }
     .lover-bg-img{
-        width: 23rem;
+        width: 24.5rem;
         height: auto;
         margin-left: 0rem;
     }
     .Plants-lover-right{
-        margin-left: 0rem;
+        margin-left: -0.7rem;
         padding-top: 0rem;
     }
     .Plants-lover-right h1{
@@ -91,12 +91,45 @@
     .Plants-lover-right-list li{
         font-size: 0.7rem;
         max-width:21rem;
-        margin-left: 1.2rem;
+        margin-left: 1rem;
+    }
+    /* ---------------------->Latest Deal Section Style <------------------------ */
+    .Latest-Deal-container{
+        max-width: 25rem;
+        margin-top: 2rem;
+    }
+    .Latest-Deal-container h1{
+        font-size: 1.5rem;
+    }
+    .Latest-Deal-container p{
+        max-width: 21rem;
+        font-size: 0.8rem;
+    }
+    .latest-deal-images-container{
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        height: auto;
+        margin-bottom: 0rem;
+
+    }
+    .div-1,
+    .div-2,
+    .div-3{
+        grid-row: auto;
+        grid-column: auto;
+        height: 15rem;
+     
+    }
+    .div-3 h3{
+        font-size: 1.5rem;
+    }
+    .div-3 a{
+         font-size: 1rem;
     }
 
     /* ----------------------> Join Section Style <------------------------ */  
     .join-container{
-        max-width: 25rem;
+        max-width: 27rem;
         height: 15rem;
     }
     .join-container h1{
@@ -110,9 +143,10 @@
     }
 /* ----------------------> footer Section Style <------------------------ */
 #footer{
-    max-width: 25rem;
+    max-width: 27rem;
     flex-direction: column;
     padding: 2rem 0rem;
+    padding-left: 1.3rem;
 }
 .footer-container ul li{
     margin-top: 1.5rem;

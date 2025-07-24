@@ -263,7 +263,7 @@ main{
   max-width: 77.5rem;
   height: auto;
   margin: 0 auto;
-  display: none;
+  padding: 3rem 0rem;
 }
 .Latest-Deal-container h1{
     font-size: 3.1rem;
@@ -289,12 +289,68 @@ main{
 .latest-deal-images-container{
     max-width: 77.5rem;
     display: grid;
-    grid-template-columns: repeat(5,1fr);
+    grid-template-columns: repeat(3,1fr);
     grid-template-rows: repeat(2,1fr);
-    /* height: 26rem; */
-    margin: 0 auto;
-    gap: 1.8rem;
-    place-items: center;
+    height: 30rem;
+    margin: 5rem auto;
+    gap: 1.5rem;
+}
+.deal-box{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-direction: column;
+ border-radius: 1rem;
+}
+.div-1 h3,
+.div-2 h3{
+    font-size: 1.5rem;
+    font-family: var(--noto-serif-font);
+    color: white;
+    font-weight: bold;
+}
+.div-1 a,
+.div-2 a{
+    font-size: 1rem;
+    color: white;
+    font-weight: 600;
+    font-family: var(--inter-font);
+    margin-top: 0.9rem;
+}
+.div-3 h3{
+    font-size: 2.5rem;
+    font-family: var(--noto-serif-font);
+    color: white;
+    font-weight: bold;
+}
+.div-3 a{
+    font-size: 1.8rem;
+    color: white;
+    font-weight: 600;
+    font-family: var(--inter-font);
+    margin-top: 0.7rem;
+}
+.div-1{
+    background-image:linear-gradient(to left,rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(../assets/deal-bloom.png);
+    grid-column: 1/2;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.div-2{
+    background-image:linear-gradient(to left,rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(../assets/deal-ana.png);
+    grid-column: 1/2;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.div-3{
+    background-image: linear-gradient(to left,rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(../assets/deal-zabo.png);
+    grid-row: 1/3;
+    grid-column: 2/4;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
 }
 
 
