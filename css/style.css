@@ -7,7 +7,6 @@
     margin: 0;
     box-sizing: border-box;
 }
-/* ----------------------> Share style <------------------------ */
 
 /* -----------> Share Variable <-------------------- */
 :root{
@@ -331,21 +330,21 @@ main{
     margin-top: 0.7rem;
 }
 .div-1{
-    background-image:linear-gradient(to left,rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(../assets/deal-bloom.png);
+    background-image:linear-gradient(to left,rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(../assets/deal-bloo.jpeg);
     grid-column: 1/2;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
 }
 .div-2{
-    background-image:linear-gradient(to left,rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(../assets/deal-ana.png);
+    background-image:linear-gradient(to left,rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(../assets/deal-an.jpeg);
     grid-column: 1/2;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
 }
 .div-3{
-    background-image: linear-gradient(to left,rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(../assets/deal-zabo.png);
+    background-image: linear-gradient(to left,rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(../assets/deal-zab.jpeg);
     grid-row: 1/3;
     grid-column: 2/4;
     background-repeat: no-repeat;
@@ -363,7 +362,7 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url(../assets/news-letter-bg.png);
+    background-image: url(../assets/news-letter-b.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
